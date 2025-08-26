@@ -1,0 +1,103 @@
+/* Page Background */
+.analytics-container {
+    background: #0A0E17;
+    /* deep dark navy */
+    min-height: 100vh;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+/* Card */
+.card {
+    background: #1A1F2B;
+    /* dark card */
+
+    border: 1px solid #2D3748;
+    color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    /* Ensures header & body share same rounded corners */
+
+
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Card Header */
+.card-header {
+    background: #0B0F1A;
+    /* darker header */
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 1px solid #2D3748;
+    border-radius: 12px 12px 0 0;
+    color: #E2E8F0;
+
+
+
+
+
+}
+
+/* Text Colors */
+.text-income {
+    color: #00B5AD;
+    /* teal */
+    font-weight: 600;
+}
+
+.text-expense {
+    color: #EF4444;
+    /* red */
+    font-weight: 600;
+}
+
+/* Progress Circles & Bars */
+.ant-progress-bg {
+    border-radius: 6px;
+}
+
+.ant-progress-circle-path {
+    stroke-linecap: round;
+}
+
+/* Override Default Ant Design Trail Color */
+.ant-progress-inner {
+    background-color: transparent;
+}
+
+.ant-progress-trail {
+    stroke: #2D3748;
+    /* dark gray trail */
+}
+
+/* Category Labels */
+.card-body h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #E2E8F0;
+    margin-bottom: 6px;
+}
+
+.ant-progress-text {
+    color: white;
+}
+
+
+
+.card-header {
+    background: #1a1f2b;
+    /* same as card */
+    border-bottom: 1px solid #2a2f3d;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.ant-progress-text {
+    color: white !important;
+    font-weight: 600;
+}

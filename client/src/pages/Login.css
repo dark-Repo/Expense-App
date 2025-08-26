@@ -1,0 +1,16 @@
+.ant-input {
+    background: white !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 6px;
+}
+
+.ant-input-password input {
+    border: none !important;
+    /* remove inner input border */
+    box-shadow: none !important;
+    color: black !important;
+}
+
+.tit {
+    gap: 30px;
+}
