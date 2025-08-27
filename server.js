@@ -24,19 +24,18 @@ app.use(cors())
 //user routes
 
 
-/*
+
 app.use('/api/v1/user', require('./routes/userRoute'))
-*/
-app.use('https://expense-app-1-0dq9.onrender.com/api/v1/user',
-    require('./routes/userRoute'))
+
+
 
 //port
 const PORT = process.env.PORT || 8081;
 //transection routes
 
-//app.use('/api/v1/transections', require('./routes/transectionRoutes'));
+app.use('/api/v1/transections', require('./routes/transectionRoutes'));
 
-app.use('https://expense-app-1-0dq9.onrender.com/api/v1/transections', require('./routes/transectionRoutes'));
+
 //static files
 /*app.use(express.static(path.join(__dirname, './client/build')));
 
